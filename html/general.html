@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo General</title>
+    <link rel="stylesheet" href="../css/general.css">
+</head>
+<body>
+    <div class="contenedor">
+        <center>
+        <form>
+             <br>
+            <center>
+                <input type="image" id="image" alt="Login" src="../Imagenes/Escudo.png">
+            </center>
+
+            <p>
+          
+                ¿Tiene algun area roja en la piel?<br>
+          
+              <input type="radio" name="s1" value=0 checked>  Ninguna
+          
+              <input type="radio" name="s1" value=0.1> Areas diminutas
+          
+              <input type="radio" name="s1" value=0.2> Areas pequenas
+
+              <input type="radio" name="s1" value=0.3> Areas medianas
+
+              <input type="radio" name="s1" value=0.5> Areas grandes
+
+              <input type="radio" name="s1" value=0.8> Manchas muy llamativas
+          
+            </p>
+            <p>
+          
+                ¿El area presenta hinchazon?<br>
+            
+                <input type="radio" name="s2" value=0 checked> Ninguna
+            
+                <input type="radio" name="s2" value="0.1"> Muy poca hinchazon
+            
+                <input type="radio" name="s2" value="0.4"> Hinchazon mediana
+
+                <input type="radio" name="s2" value="0.6"> Un area muy hinchada
+            
+            </p>
+            <p>
+          
+                ¿Presenta dolor en el area?<br>
+            
+                <input type="radio" name="s3" value=0 checked> Ningun dolor
+            
+                <input type="radio" name="s3" value=0.2> Muy leve
+            
+                <input type="radio" name="s3" value=0.6> Dolor que incomoda
+
+                <input type="radio" name="s3" value=0.8> Dolor fuerte
+
+            
+            </p>
+            <p>
+          
+                ¿Presenta fiebre?<br>
+            
+                <input type="radio" name="s4" value=0 checked> No
+            
+                <input type="radio" name="s4" value=0.4> Leve fiebre
+            
+                <input type="radio" name="s4" value=0.6> Fiebre noraml
+
+                <input type="radio" name="s3" value=0.8> Fiebre muy alta
+            </p>
+            <p>
+          
+                ¿Tiene picazon en el area afectada?<br>
+            
+                <input type="radio" name="s5" value=0 checked> No hay picazon
+            
+                <input type="radio" name="s5" value=0.2> Solo incomoda en momentos
+            
+                <input type="radio" name="s5" value=0.4> Poco de picazon
+
+                <input type="radio" name="s5" value=0.6> Es molesta la picazon
+
+                <input type="radio" name="s5" value=0.8> Mucha picazon
+
+                <input type="radio" name="s5" value=0.9> Es inaguantable la sensacion
+            
+            </p>
+            <p>
+          
+                ¿Ha tenido ampollas en algun area del cuerpo?<br>
+            
+                <input type="radio" name="s6" value=0 checked> Tiempo completo
+            
+                <input type="radio" name="s6" value=0.3> Medio día
+            
+                <input type="radio" name="s6" value=0.6> Sin empleo
+
+                <input type="radio" name="s5" value=0.9> Sin empleo
+            
+            </p>
+            <p>
+          
+                ¿Ha tenido llagas en algun area del cuerpo?<br>
+            
+                <input type="radio" name="s7" value=0 checked> Ninguna llaga
+            
+                <input type="radio" name="s7" value=0.4> Llagas muy leves
+            
+                <input type="radio" name="s7" value=0.6> Llagas molestas
+
+                <input type="radio" name="s5" value=0.8> Llgas muy dolorosas
+            
+            </p>
+            <p>
+          
+                ¿Las heridas que tiene han supurado liquido?<br>
+            
+                <input type="radio" name="s8" value=0 checked> No, en ningun momento
+            
+                <input type="radio" name="s8" value=0.2 > Muy leve el liquido
+            
+                <input type="radio" name="s8" value=0.4> Un poco de liquido
+
+                <input type="radio" name="s5" value=0.6> Una cantidad normal
+
+                <input type="radio" name="s5" value=0.8> Bastante liquido supura de las heridas
+            
+            </p>
+            <p>
+          
+                ¿Tiene algun area del cuerpo con piel escamosa?<br>
+            
+                <input type="radio" name="s9" value=0 checked> Ningun area escamosa
+            
+                <input type="radio" name="s9" value=0.2> Area pequena escamosa
+            
+                <input type="radio" name="s9" value=0.4> Varias areas escamosas pequenas
+
+                <input type="radio" name="s5" value=0.6> Areas escamosas grandes
+
+                <input type="radio" name="s5" value=0.8> Un area grande escamosa
+            
+            </p>
+            <p>
+          
+                ¿El area afectada esta cerca de algun lunar?<br>
+            
+                <input type="radio" name="s10" value=0 checked> Muy lejos de lunares
+            
+                <input type="radio" name="s10" value=0.4> Cerca de lunares
+            
+                <input type="radio" name="s10" value=0.8> Justo donde tenia un lunar
+            
+            </p>
+            <p>
+          
+                ¿Tiene el cuero cabelludo escamoso?<br>
+            
+                <input type="radio" name="s11" value=0 checked> No
+            
+                <input type="radio" name="s11" value=0.6> Muy poco
+            
+                <input type="radio" name="s11" value=0.8> Bastante escamosa la area del cuero cabelludo
+            
+            </p>
+            <p>
+          
+                ¿Ha tenido ronchas en el cuerpo?<br>
+            
+                <input type="radio" name="s12" value=0 checked> Ronchas muy separadas
+            
+                <input type="radio" name="s12" value=0.2> Ronchas juntas entre 1 y 2
+            
+                <input type="radio" name="s12" value=0.4> Ronchas juntas entre 2 y 3
+
+                <input type="radio" name="s12" value=0.8> Muchas ronchas juntas
+            
+            </p>
+            <p>
+          
+                ¿Las heridas han generado costras?<br>
+            
+                <input type="radio" name="s13" value=0 checked> Ninguna
+            
+                <input type="radio" name="s13" value=0.2> Muy pocas
+            
+                <input type="radio" name="s13" value=0.6> Abundantes donde habia enrojecimiento
+            
+            </p>
+            <p>
+          
+                ¿El area afectada de la piel esta mas seca?<br>
+            
+                <input type="radio" name="s14" value=0 checked> No, normal
+            
+                <input type="radio" name="s14" value=0.2> Un poco seca
+            
+                <input type="radio" name="s14" value=0.4> Piel bastante seca
+            
+            </p>
+            <button type="button" id="boton">Confirmar</button>
+            <br>
+            <br>
+        </form>
+        <ul>
+
+        </ul>
+    </center>
+    </div>
+    
+<script>
+    var boton = document.getElementById('boton');
+    var s1 = document.getElementsByName('s1');
+    var s2 = document.getElementsByName('s2');
+    var s3 = document.getElementsByName('s3');
+    var s4 = document.getElementsByName('s4');
+    var s5 = document.getElementsByName('s5');
+    var s6 = document.getElementsByName('s6');
+    var s7 = document.getElementsByName('s7');
+    var s8 = document.getElementsByName('s8');
+    var s9 = document.getElementsByName('s9');
+    var s10 = document.getElementsByName('s10');
+    var s11 = document.getElementsByName('s11');
+    var s12 = document.getElementsByName('s12');
+    var s13 = document.getElementsByName('s13');
+    var s14 = document.getElementsByName('s14');
+
+    var celulitis = [0.8, 0.4, 0.6, 0.4, 0.4, 0.9, 0, 0.8, 0, 0, 0, 0.2, 0, 0];
+    var contCelulitis = [0, "Celulitis"];
+    var impetigo = [0.3, 0, 0.2, 0, 0.6, 0.9, 0.6, 0.8, 0, 0, 0, 0.2, 0.2, 0];
+    var contImpetigo = [0, "Impetigo"];
+    var forunculos = [0.8, 0.6, 0, 0, 0, 0, 0, 0.6, 0, 0, 0, 0.4, 0, 0.4];
+    var contForunculos = [0, "Forunculos"];
+    var melanoma = [0.2, 0, 0, 0, 0, 0, 0, 0.4, 0, 0.8, 0, 0.2, 0, 0];
+    var contMelanoma = [0, "Melanoma"];
+    var varicela = [0.5, 0, 0, 0.8, 0.8, 0, 0, 0.2, 0, 0, 0, 0.8, 0.6, 0.4];
+    var contVaricela = [0, "Varicela"];
+    var tina = [0.3, 0, 0, 0, 0.4, 0, 0, 0, 0.2, 0, 0, 0, 0, 0];
+    var contTina = [0, "Tina"];
+    var dermatitis = [0.8, 0.1, 0, 0, 0.9, 0, 0, 0, 0.6, 0, 0, 0, 0, 0];
+    var contDermatitis = [0, "Dermatitis"];
+    var sarna = [0.1, 0, 0.2, 0, 0.9, 0.6, 0.6, 0.2, 0, 0, 0, 0, 0.2, 0.2];
+    var contSarna = [0, "Sarna"];
+    var chinches = [0.2, 0, 0, 0, 0.2, 0.3, 0, 0.2, 0, 0, 0, 0.8, 0, 0];
+    var contChinches = [0, "Chinches"];
+    var ictiosis = [0, 0.1, 0.8, 0, 0, 0, 0.8, 0, 0.8, 0, 0.8, 0, 0, 0];
+    var contIctiosis = [0, "Ictiosis"];
+
+
+    boton.addEventListener('click', function(){
+        for (var i = 0, length = s1.length; i < length; i++)
+        {
+            if (s1[i].checked)
+            {
+             s1 = (s1[i].value);
+            break;
+            }
+        }
+        for (var i = 0, length = s2.length; i < length; i++)
+        {
+            if (s2[i].checked)
+            {
+             s2 = (s2[i].value);
+            break;
+            }
+        }
+        for (var i = 0, length = s3.length; i < length; i++)
+        {
+            if (s3[i].checked)
+            {
+             s3 = (s3[i].value);
+            break;
+            }
+        }
+        for (var i = 0, length = s4.length; i < length; i++)
+        {
+            if (s4[i].checked)
+            {
+             s4 = (s4[i].value);
+            break;
+            }
+        }
+        for (var i = 0, length = s5.length; i < length; i++)
+        {
+            if (s5[i].checked)
+            {
+             s5 = (s5[i].value);
+            break;
+            }
+        }
+        for (var i = 0, length = s6.length; i < length; i++)
+        {
+            if (s6[i].checked)
+            {
+             s6 = (s6[i].value);
+            break;
+            }
+        }
+        for (var i = 0, length = s7.length; i < length; i++)
+        {
+            if (s7[i].checked)
+            {
+             s7 = (s7[i].value);
+            break;
+            }
+        }
+        for (var i = 0, length = s8.length; i < length; i++)
+        {
+            if (s8[i].checked)
+            {
+             s8 = (s8[i].value);
+            break;
+            }
+        }
+        for (var i = 0, length = s9.length; i < length; i++)
+        {
+            if (s9[i].checked)
+            {
+             s9 = (s9[i].value);
+            break;
+            }
+        }
+        for (var i = 0, length = s10.length; i < length; i++)
+        {
+            if (s10[i].checked)
+            {
+             s10 = (s10[i].value);
+            break;
+            }
+        }
+        for (var i = 0, length = s11.length; i < length; i++)
+        {
+            if (s11[i].checked)
+            {
+             s11 = (s11[i].value);
+            break;
+            }
+        }
+        for (var i = 0, length = s12.length; i < length; i++)
+        {
+            if (s12[i].checked)
+            {
+             s12 = (s12[i].value);
+            break;
+            }
+        }
+        for (var i = 0, length = s13.length; i < length; i++)
+        {
+            if (s13[i].checked)
+            {
+             s13 = (s13[i].value);
+            break;
+            }
+        }
+        for (var i = 0, length = s14.length; i < length; i++)
+        {
+            if (s14[i].checked)
+            {
+             s14 = (s14[i].value);
+            break;
+            }
+        }
+        var arrePaciente = [s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14];
+
+        console.log(arrePaciente);
+
+        //celulitis
+        for(var i = 0; i <= 13; i++){
+            if(celulitis[i] ==  arrePaciente[i]){
+                contCelulitis[0]++;  
+            }    
+            
+        }
+        console.log(contCelulitis);
+
+        //impetigo
+        for(var i = 0; i <= 13; i++){
+            if(impetigo[i] ==  arrePaciente[i]){
+                contImpetigo[0]++;  
+            }    
+            
+        }
+        console.log(contImpetigo);
+
+        //forunculos
+        for(var i = 0; i <= 13; i++){
+            if(forunculos[i] ==  arrePaciente[i]){
+                contForunculos[0]++;  
+            }    
+            
+        }
+        console.log(contForunculos);
+
+        //melanoma
+        for(var i = 0; i <= 13; i++){
+            if(melanoma[i] ==  arrePaciente[i]){
+                contMelanoma[0]++;  
+            }    
+            
+        }
+        console.log(contMelanoma);
+
+        //varicela
+        for(var i = 0; i <= 13; i++){
+            if(varicela[i] ==  arrePaciente[i]){
+                contVaricela[0]++;  
+            }    
+            
+        }
+        console.log(contVaricela);
+
+        //tina
+        for(var i = 0; i <= 13; i++){
+            if(tina[i] ==  arrePaciente[i]){
+                contTina[0]++;  
+            }    
+            
+        }
+        console.log(contTina);
+
+        //dermatitis
+        for(var i = 0; i <= 13; i++){
+            if(dermatitis[i] ==  arrePaciente[i]){
+                contDermatitis[0]++;  
+            }    
+            
+        }
+        console.log(contDermatitis);
+
+        //sarna
+        for(var i = 0; i <= 13; i++){
+            if(sarna[i] ==  arrePaciente[i]){
+                contSarna[0]++;  
+            }    
+            
+        }
+        console.log(contSarna);
+
+        //chinches
+        for(var i = 0; i <= 13; i++){
+            if(chinches[i] ==  arrePaciente[i]){
+                contChinches[0]++;  
+            }    
+            
+        }
+        console.log(contChinches);
+
+        //Ictiosis
+        for(var i = 0; i <= 13; i++){
+            if(ictiosis[i] ==  arrePaciente[i]){
+                contIctiosis[0]++;  
+            }    
+            
+        }
+        console.log(contIctiosis);
+
+
+        
+        if(contCelulitis[0] >= 12){
+            console.log(contCelulitis[0]);
+            window.location="celulitis.html";
+        }
+        if(contImpetigo[0] >= 12){
+            console.log(contImpetigo[0]);
+            window.location="impetigo.html";
+        }
+        if(contForunculos[0] >= 12){
+            console.log(contForunculos[0]);
+            window.location="forunculos.html";
+        }
+        if(contMelanoma[0] >= 12){
+            console.log(contMelanoma[0]);
+            window.location="melanoma.html";
+        }
+        if(contVaricela[0] >= 12){
+            console.log(contVaricela[0]);
+            window.location="varicela.html";
+        }
+        if(contTina[0] >= 12){
+            console.log(contTina[0]);
+            window.location="tina.html";
+        }
+        if(contDermatitis[0] >= 12){
+            console.log(contDermatitis[0]);
+            window.location="dermatitis.html";
+        }
+        if(contSarna[0] >= 12){
+            console.log(contSarna[0]);
+            window.location="sarna.html";
+        }
+        if(contChinches[0] >= 12){
+            console.log(contChinches[0]);
+            window.location="chinches.html";
+        }
+        if(contIctiosis[0] >= 12){
+            console.log(contIctiosis[0]);
+            window.location="ictiosis.html";
+        }
+        if(contCelulitis[0] < 12 && contImpetigo[0] < 12 && contForunculos[0] < 12 && contMelanoma[0] < 12 && contVaricela[0] < 12 && contTina[0] < 12 && contDermatitis[0] < 12 && contSarna[0] < 12 && contChinches[0] < 12 && contIctiosis[0] < 12){
+            window.location="ninguna.html";
+        }
+        
+    });
+</script>
+
+</body>
+</html>
